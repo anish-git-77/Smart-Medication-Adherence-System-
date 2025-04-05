@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Pillbox Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+<body>
+
+  <!-- Header with Auth Buttons -->
+  <header class="video-header">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="Untitled video - Made with Clipchamp.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  
+    <div class="header-content">
+      <h1>Smart Pillbox System</h1>
+      <div class="auth-buttons">
+        <a href="#signin">Sign In</a>
+        <a href="#signup">Sign Up</a>
+      </div>
+    </div>
+  </header>
+  
+ 
+  
+  
+
+  <!-- Nav Bar -->
+  <nav>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#medications">Medications</a>
+    <a href="#reports">Reports</a>
+    <a href="#settings">Settings</a>
+    <a href="#about">About</a>
+    <a href="#doctors">Doctors</a>
+  </nav>
+
+  <!-- Dashboard Section -->
+  <div class="container" id="dashboard">
+    <div class="card">
+      <h2>Today's Medication Schedule</h2>
+      <p>8:00 AM - Metformin ✔️</p>
+      <p>12:00 PM - Aspirin ❌ (Missed)</p>
+      <p>6:00 PM - Lisinopril ⏳ (Upcoming)</p>
+    </div>
+
+    <div class="card">
+      <h2>Device Status</h2>
+      <p>Last Sync: 5 mins ago</p>
+      <p>Battery: 80%</p>
+    </div>
+  </div>
+
+  <!-- Medications Section -->
+  <div class="container" id="medications">
+    <div class="card">
+      <h2>Add Medication</h2>
+      <form>
+        <label>Medication Name:</label>
+        <input type="text" placeholder="e.g., Metformin" />
+        
+        <label>Time:</label>
+        <input type="time" />
+
+        <label>Dosage:</label>
+        <input type="text" placeholder="e.g., 500mg" />
+
+        <button type="submit" class="btn">Add</button>
+      </form>
+    </div>
+  </div>
+  
+  
+  <!-- Quick Access Section -->
+<div class="container quick-access">
+    <div class="quick-card">
+      <img src="https://img.icons8.com/ios-filled/50/4caf50/doctor-male.png" alt="Appointment" />
+      <h3>Book an Appointment</h3>
+      <p>With country's leading experts</p>
+    </div>
+    
+    <div class="quick-card">
+      <img src="https://img.icons8.com/ios-filled/50/4caf50/hospital.png" alt="Hospital" />
+      <h3>Hospitals</h3>
+      <p>Health needs under one roof</p>
+    </div>
+    
+    <div class="quick-card">
+      <img src="https://img.icons8.com/ios-filled/50/4caf50/stethoscope.png" alt="Specialities" />
+      <h3>Specialities</h3>
+      <p>Our expertise in Healthcare</p>
+    </div>
+    
+    <div class="quick-card">
+      <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/health-check-6408465-5390543.png" alt="Health Checkups" />
+      <h3>Health Checkups</h3>
+      <p>We can help you book</p>
+    </div>
+    
+    <div class="quick-card">
+      <img src="https://img.icons8.com/ios-filled/50/4caf50/test-tube.png" alt="Tests & Services" />
+      <h3>Tests & Services</h3>
+      <p>Diagnostics made easy</p>
+    </div>
+  </div>
+  
+
+  <!-- Reports Section -->
+  <div class="container" id="reports">
+    <div class="card">
+      <h2>Weekly Adherence Report</h2>
+      <p>Adherence Rate: 85%</p>
+      <p>Missed Doses: 3</p>
+    </div>
+  </div>
+
+  <!-- Settings Section -->
+  <div class="container" id="settings">
+    <div class="card">
+      <h2>Settings</h2>
+      <label>Notification Method:</label>
+      <select>
+        <option>Push Notification</option>
+        <option>Email</option>
+        <option>SMS</option>
+      </select>
+      <button class="btn">Save Settings</button>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="container" id="about">
+    <div class="card">
+      <h2>About Smart Pillbox</h2>
+      <p>This system helps patients manage their daily medications through an IoT-enabled smart pillbox. It ensures proper timing, alerts users, tracks adherence, and enables caregivers to monitor remotely.</p>
+    </div>
+  </div>
+
+  <!-- Doctors Section -->
+  <div class="container" id="doctors">
+    <div class="card">
+      <h2>Our Medical Team</h2>
+      <p>We collaborate with certified doctors and healthcare professionals who monitor patient progress and provide support based on adherence reports.</p>
+    </div>
+  </div>
+
+  <!-- Footer with Emergency and Complaint -->
+  <footer>
+    <div class="footer-section">
+      <h3>Emergency Contact</h3>
+      <p>📞 Call us immediately at <strong>+91 800 555 0175</strong> for urgent medical assistance.</p>
+      <br>
+      <h3>Patient Complaint or Concern</h3>
+      <form>
+        <label>Your Name:</label>
+        <input type="text" placeholder="Enter your name" />
+
+        <label>Your Concern:</label>
+        <textarea rows="4" placeholder="Describe your issue or feedback..."></textarea>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </footer>
+
+</body>
+</html>
