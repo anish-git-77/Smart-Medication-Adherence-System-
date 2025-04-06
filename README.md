@@ -4,7 +4,7 @@ The Smart Medication Adherence System is a digital health platform designed to h
 🕒 Automated Medication Reminders
 Schedule and receive notifications for all your medications.
 
-📊 Adherence Tracking
+📊 Adherence Tracking  
 Monitor missed or delayed doses and stay consistent with your treatment.
 
 👨‍⚕️ Doctor/Caregiver Notifications
@@ -51,6 +51,7 @@ Add user login and registration with authentication
 Enable medication database syncing
 
 Connect to wearable devices or smart pillboxes
+
 
 🤝 Contributing
 Contributions, suggestions, and feedback are always welcome!
